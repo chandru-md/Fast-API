@@ -4,8 +4,8 @@ my_vehicle = {
     "year":2025,
     "mileage":20
 }
-for i in my_vehicle.items():
-    print(i)
+for i,j in my_vehicle.items():
+    print(i,'=',j)
 
 my_vehicle_2 = my_vehicle.copy()
 
