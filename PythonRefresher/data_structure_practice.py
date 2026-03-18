@@ -22,3 +22,26 @@ while i < len(numbers):
     i += 1
 
 print("Sum:", total)
+
+print('='*50)
+
+numbers = [10, 45, 23, 89, 67]
+
+largest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+
+print("Largest:", largest)
+
+numbers = [10, 45, 23, 89, 67]
+
+largest = max(numbers)
+
+print("Largest:", largest)
+
+numbers = [10, 45, 23, 89, 67]
+
+numbers.sort()
+print("Largest:", numbers[-1])
