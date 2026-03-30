@@ -1,8 +1,8 @@
 from Enemy import *
 
-enemy = Enemy()
+enemy = Enemy("Sweety",2,55)
+big_enemy = Enemy("kaushika",4,100)
 
-enemy.type_of_enemy = "Kavitha"
 enemy.talk()
 enemy.walk_forward()
 enemy.attack()
