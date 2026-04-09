@@ -40,3 +40,4 @@ class Enemy:
 
     def attack(self):
         print(f"{self.type_of_enemy} attacks for {self.attack_damage} damage")
+
